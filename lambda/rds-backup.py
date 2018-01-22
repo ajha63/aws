@@ -20,6 +20,7 @@ def lambda_handler(event, context):
     )
     
     for snapshot in client.describe_db_snapshots(DBInstanceIdentifier='web-platform-slave', MaxRecords=50)['DBSnapshots']:
+
         if create_ts < datetime.datetime.now() - datetime.timedelta(days=7):
             print "Deleting snapshot id:", snapshot['DBSnapshotIdentifier']
             client.delete_db_snapshot(

@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rds-backup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rds-backup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rds-backup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="170">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -24,7 +24,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ebs-lambda-policy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ebs-lambda-policy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rds-backup.py" />
+        <option value="$PROJECT_DIR$/ebs-lambda-policy" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="441" />
@@ -200,11 +218,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rds-backup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="170">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebs-lambda-policy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

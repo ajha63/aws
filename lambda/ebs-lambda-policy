@@ -1,0 +1,37 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "rds:AddTagsToResource",
+                "rds:DeleteDBSnapshot"
+            ],
+            "Resource": "arn:aws:rds:eu-central-1::snapshot:web-platform-*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "rds:ListTagsForResource",
+                "rds:CreateDBSnapshot"
+            ],
+            "Resource": "arn:aws:rds:eu-central-1:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "rds:DescribeDBSnapshots"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
