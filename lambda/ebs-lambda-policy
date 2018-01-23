@@ -1,36 +1,5 @@
 {
     "Version": "2012-10-17",
     "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "logs:CreateLogGroup",
-                "logs:CreateLogStream",
-                "logs:PutLogEvents"
-            ],
-            "Resource": "arn:aws:logs:*:*:*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "rds:AddTagsToResource"
-            ],
-            "Resource": "arn:aws:rds:*::snapshot:*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "rds:ListTagsForResource",
-                "rds:CreateDBSnapshot"
-            ],
-            "Resource": "arn:aws:rds:*:*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "rds:DescribeDBSnapshots"
-            ],
-            "Resource": "*"
-        }
     ]
 }
