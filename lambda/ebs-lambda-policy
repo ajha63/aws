@@ -13,10 +13,9 @@
         {
             "Effect": "Allow",
             "Action": [
-                "rds:AddTagsToResource",
-                "rds:DeleteDBSnapshot"
+                "rds:AddTagsToResource"
             ],
-            "Resource": "arn:aws:rds:eu-central-1::snapshot:web-platform-*"
+            "Resource": "arn:aws:rds:*::snapshot:*"
         },
         {
             "Effect": "Allow",
@@ -24,7 +23,7 @@
                 "rds:ListTagsForResource",
                 "rds:CreateDBSnapshot"
             ],
-            "Resource": "arn:aws:rds:eu-central-1:*"
+            "Resource": "arn:aws:rds:*:*"
         },
         {
             "Effect": "Allow",
